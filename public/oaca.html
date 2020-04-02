@@ -432,8 +432,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     bottom: 40px;
     right: 20px;
     width: 400px;
-    height: 600px;
+    height: 620px;
     z-index: 50;
+    background: #fff;
   }
   .chatbot-header {
     background: #0078d7;
@@ -455,15 +456,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     float: right;
   }
   a .close-chatbot {
-    background: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%3E%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E");
     height: 20px;
     width: 20px;
   }
 </style>
 <div id="chatbot">
-  <div class="chatbot-header">Coronavirus Symptom Checker <a href="#close-chatbot" id="close-chatbot"><span class="material-icons">
-close
-</span></a></div>
+  <div class="chatbot-header">
+    Coronavirus Symptom Checker
+    <a href="#close-chatbot" id="close-chatbot"><span class="material-icons"> close </span></a>
+  </div>
   <iframe src="https://covid19-chatbot4c1b.azurewebsites.net/"></iframe>
 </div>
 <script type="text/javascript">
